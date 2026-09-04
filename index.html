@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio NDAN - Web Developer, Digital Product, & Creative Problem Solver.">
+    <title>NDAN | Web Developer & Digital Product Specialist</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/variable.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <script src="https://unpkg.com/lucide@latest">
+    </script>
+  <script src="https://unpkg.com/lucide@0.263.1"></script>
+
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+    <div class="container nav-container">
+        <a href="#hero" class="nav-logo" aria-label="NDAN Homepage">NDAN<span>.</span></a>
+        
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu" aria-expanded="false">
+            <i data-lucide="menu" id="menuIcon"></i>
+        </button>
+
+        <nav class="nav-menu" id="navMenu">
+            <ul class="nav-list">
+                <li><a href="#hero" class="nav-link active">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#skills" class="nav-link">Keahlian</a></li>
+                <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+                <li><a href="#projects" class="nav-link">Proyek</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary nav-btn">Mari Terhubung</a>
+        </nav>
+    </div>
+</header>
+
+    <main>
+<section class="hero section" id="hero"> 
+  <div class="container hero-grid"> 
+    <div class="hero-content"> 
+      <div class="badge fade-in"> 
+        <span class="badge-dot"></span> TERBUKA UNTUK PELUANG KERJA 
+      </div> 
+      <h1 class="hero-title fade-in">Membangun <span class="highlight">Pengalaman</span> Digital yang Berdampak.</h1> 
+      <p class="hero-subtitle fade-in">Pengembang Web • Produk Digital • Pemecah Masalah Kreatif</p> 
+      <p class="hero-desc fade-in">Fokus menciptakan aplikasi web modern, sistem efisien, dan antarmuka pengguna yang bersih serta fungsional.</p> 
+      <div class="hero-cta fade-in"> 
+        <a href="#projects" class="btn btn-primary">Lihat Karya Saya <i data-lucide="arrow-right"></i></a> 
+        <a href="#contact" class="btn btn-secondary">Mari Bicarakan <i data-lucide="mail"></i></a> 
+      </div> 
+    </div> 
+    <div class="hero-visual fade-in"> 
+      <div class="glow-orb"></div> 
+      <div class="code-card"> 
+        <div class="code-header"> 
+          <span class="dot red"></span> 
+          <span class="dot yellow"></span> 
+          <span class="dot green"></span> 
+          <span class="code-title">developer.js</span> </div> 
+        <div class="code-body"> 
+          <code> 
+            <span class="keyword">const</span> <span class="variable">developer</span> = {<br> 
+            &nbsp;&nbsp;name: <span class="string">'NDAN'</span>,<br> 
+            &nbsp;&nbsp;skills: [<span class="string">'Web'</span>, <span class="string">'Sistem'</span>, <span class="string">'Desain'</span>],<br> 
+            &nbsp;&nbsp;passionate: <span class="boolean">true</span>,<br> 
+            &nbsp;&nbsp;status: <span class="string">'Siap Berinovasi'</span><br> 
+            }; 
+          </code> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+</section>
+<section class="about section" id="about">
+    <div class="container">
+        <div class="section-header center">
+            <h2 class="section-title">Tentang Saya</h2>
+            <p class="section-subtitle">Sekilas tentang siapa diri saya.</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-text glass-card fade-in">
+                <p>Saya seorang pengembang muda yang memiliki antusiasme tinggi dalam menciptakan produk digital bermanfaat, situs web modern, dan sistem yang efisien. Berkelanjutan belajar dan beradaptasi dengan teknologi terkini untuk memberikan solusi digital tepat guna.</p>
+                <p>Menggabungkan logika pemrograman dan estetika desain untuk menghasilkan produk digital yang tidak hanya berfungsi baik secara teknis, tetapi juga nyaman digunakan.</p>
+                <a href="assets/cv.pdf" download class="btn btn-primary" style="margin-top: 1rem;">
+                    Unduh CV <i data-lucide="download"></i>
+                </a>
+            </div>
+            <div class="about-quick glass-card fade-in">
+                <h3 class="card-title">Profil Singkat</h3>
+                <ul class="profile-list">
+                    <li><i data-lucide="user"></i> <strong>Nama:</strong> NDAN</li>
+                    <li><i data-lucide="code-2"></i> <strong>Peran:</strong> Fullstack / Pengembang Sistem</li>
+                    <li><i data-lucide="briefcase"></i> <strong>Pengalaman:</strong> 2+ Tahun</li>
+                    <li><i data-lucide="map-pin"></i> <strong>Lokasi:</strong> Indonesia</li>
+                    <li><i data-lucide="layers"></i> <strong>Fokus:</strong> Solusi Web & Digital</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills section" id="skills">
+    <div class="container">
+        <div class="section-header center">
+            <h2 class="section-title">Keahlian & Spesialisasi</h2>
+            <p class="section-subtitle">Kapabilitas teknis dan manajerial yang dikuasai.</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category glass-card fade-in">
+                <div class="category-header">
+                    <i data-lucide="code-2" class="icon-accent"></i>
+                    <h3>Pengembangan Web</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Desain Responsif</span>
+                    <span class="skill-tag">Pengembangan UI</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card fade-in">
+                <div class="category-header">
+                    <i data-lucide="palette" class="icon-accent"></i>
+                    <h3>Desain</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Desain Grafis</span>
+                    <span class="skill-tag">Desain UI</span>
+                    <span class="skill-tag">Desain Visual</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card fade-in">
+                <div class="category-header">
+                    <i data-lucide="layers-3" class="icon-accent"></i>
+                    <h3>Produk Digital</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Perencanaan Produk</span>
+                    <span class="skill-tag">Riset</span>
+                    <span class="skill-tag">Desain Sistem</span>
+                    <span class="skill-tag">Manajemen Data</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card fade-in">
+                <div class="category-header">
+                    <i data-lucide="clipboard-list" class="icon-accent"></i>
+                    <h3>Administrasi</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Entri Data</span>
+                    <span class="skill-tag">Microsoft Office</span>
+                    <span class="skill-tag">Manajemen Dokumen</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="experience section" id="experience">
+    <div class="container">
+        <div class="section-header center">
+            <h2 class="section-title">Pengalaman</h2>
+            <p class="section-subtitle">Perjalanan karir dan kontribusi proyek.</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"><i data-lucide="briefcase"></i></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">2025 — Sekarang</span>
+                    <h3 class="timeline-role">Staf Digital / Administrasi</h3>
+                    <p class="timeline-company">Instansi / Perusahaan</p>
+                    <p class="timeline-desc">Mengelola administrasi digital, optimalisasi basis data internal, dan mengembangkan utilitas web untuk efisiensi alur kerja operasional.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Manajemen Data</span>
+                        <span class="skill-tag">Utilitas Web</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"><i data-lucide="briefcase"></i></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">2024 — 2025</span>
+                    <h3 class="timeline-role">Pengembang Proyek Web & Data</h3>
+                    <p class="timeline-company">Pekerja Lepas / Berbasis Proyek</p>
+                    <p class="timeline-desc">Merancang dan merealisasikan aplikasi web kustom untuk kebutuhan bisnis lokal, integrasi sistem kasir, dan pengolahan data.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="projects section" id="projects">
+    <div class="container">
+        <div class="section-header center">
+            <h2 class="section-title">Proyek Unggulan</h2>
+            <p class="section-subtitle">Beberapa karya dan sistem yang telah saya bangun.</p>
+        </div>
+        <div class="projects-grid">
+            <article class="project-card glass-card fade-in">
+                <div class="project-header">
+                    <span class="project-num">01</span>
+                    <i data-lucide="shopping-cart" class="project-icon"></i>
+                </div>
+                <span class="project-category">Website Profil</span>
+                <h3 class="project-title">Portofolio</h3>
+                <p class="project-desc">NulisInAja adalah website layanan jasa joki yang membantu pengguna dalam mengerjakan berbagai kebutuhan tugas secara praktis dan mudah</p>
+                <div class="project-tech">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>API Telegram</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://ndanatharid.github.io/portofolio/" class="btn-link" aria-label="Lihat Proyek KasirPOS">Lihat Proyek <i data-lucide="arrow-right"></i></a>
+                    <a href="https://ndanatharid.github.io/portofolio/" class="btn-icon" aria-label="Repositori GitHub KasirPOS"><i data-lucide="github"></i></a>
+                </div>
+            </article>
+            <article class="project-card glass-card fade-in">
+                <div class="project-header">
+                    <span class="project-num">02</span>
+                    <i data-lucide="scan-face" class="project-icon"></i>
+                </div>
+                <span class="project-category">Web Wedding</span>
+                <h3 class="project-title">WEDDING</h3>
+                <p class="project-desc">Wedding Nurva & Athar — Digital Wedding Invitation
+Website undangan pernikahan digital dengan desain elegan dan responsif yang menyediakan informasi pasangan, detail acara, lokasi, countdown, dan galeri dalam satu platform.</p>
+                <div class="project-tech">
+                    <span>HTML</span><span>CSS</span><span>JS</span><span>PHP</span><span>MySQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://wedding-nurva-athar.vercel.app/" class="btn-link" aria-label="Lihat Proyek AttendRA">Lihat Proyek <i data-lucide="arrow-right"></i></a>
+                    <a href="https://wedding-nurva-athar.vercel.app/" class="btn-icon" aria-label="Repositori GitHub AttendRA"><i data-lucide="github"></i></a>
+                </div>
+            </article>
+            <article class="project-card glass-card fade-in">
+                <div class="project-header">
+                    <span class="project-num">03</span>
+                    <i data-lucide="badge-check" class="project-icon"></i>
+                </div>
+                <span class="project-category">Website Jasa</span>
+                <h3 class="project-title">NulisinAja</h3>
+                <p class="project-desc">NulisInAja adalah website layanan jasa joki yang membantu pengguna dalam mengerjakan berbagai kebutuhan tugas secara praktis dan mudah.</p>
+                <div class="project-tech">
+                    <span>Web</span><span>Produk Digital</span><span>Konten</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://ndanatharid.github.io/nulisinaja/" class="btn-link" aria-label="Lihat Proyek GoHalal">Lihat Proyek <i data-lucide="arrow-right"></i></a>
+                </div>
+            </article>
+            <article class="project-card glass-card fade-in">
+                <div class="project-header">
+                    <span class="project-num">04</span>
+                    <i data-lucide="globe" class="project-icon"></i>
+                </div>
+                <span class="project-category">Web Shop</span>
+                <h3 class="project-title">ShopAthar</h3>
+                <p class="project-desc">Website portofolio pribadi modern yang dirancang dengan antarmuka glassmorphism yang bersih.</p>
+                <div class="project-tech">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://ndanatharid.github.io/shop-book/" class="btn-link" aria-label="Lihat Proyek Portofolio">Lihat Proyek <i data-lucide="arrow-right"></i></a>
+                    <a href="https://ndanatharid.github.io/shop-book/" class="btn-icon" aria-label="Repositori GitHub Portofolio"><i data-lucide="github"></i></a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+<section class="stats section" id="stats">
+    <div class="container">
+        <div class="section-header center">
+            <h2 class="section-title">Angka yang Menjelaskan Cerita</h2>
+        </div>
+        <div class="stats-grid">
+            <div class="stat-card glass-card fade-in">
+                <i data-lucide="folder-kanban" class="stat-icon"></i>
+                <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+                <p class="stat-label">Proyek Selesai</p>
+            </div>
+            <div class="stat-card glass-card fade-in">
+                <i data-lucide="code-2" class="stat-icon"></i>
+                <span class="stat-number" data-target="3">0</span><span class="stat-plus">+</span>
+                <p class="stat-label">Keterampilan Digital</p>
+            </div>
+            <div class="stat-card glass-card fade-in">
+                <i data-lucide="clock-3" class="stat-icon"></i>
+                <span class="stat-number" data-target="2">0</span><span class="stat-plus">+</span>
+                <p class="stat-label">Tahun Belajar & Berkarya</p>
+            </div>
+            <div class="stat-card glass-card fade-in">
+                <i data-lucide="lightbulb" class="stat-icon"></i>
+                <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+                <p class="stat-label">Rasa Ingin Tahu</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services section" id="services">
+    <div class="container">
+        <div class="section-header center">
+            <h2 class="section-title">Layanan & Keahlian</h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card glass-card fade-in">
+                <i data-lucide="globe" class="service-icon"></i>
+                <h3>Pengembangan Web</h3>
+                <p>Membangun website modern, responsif, dan cepat sesuai standar spesifikasi industri terkini.</p>
+            </div>
+            <div class="service-card glass-card fade-in">
+                <i data-lucide="layout-dashboard" class="service-icon"></i>
+                <h3>Desain UI / Web</h3>
+                <p>Membuat antarmuka yang bersih, intuitif, dan ramah pengguna untuk pengalaman pengguna terbaik.</p>
+            </div>
+            <div class="service-card glass-card fade-in">
+                <i data-lucide="layers-3" class="service-icon"></i>
+                <h3>Produk Digital</h3>
+                <p>Membantu merancang konsep, alur kerja, dan arsitektur struktur produk digital.</p>
+            </div>
+            <div class="service-card glass-card fade-in">
+                <i data-lucide="database" class="service-icon"></i>
+                <h3>Data & Administrasi</h3>
+                <p>Membantu pengelolaan data terstruktur dan digitalisasi sistem administrasi perusahaan.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact section" id="contact">
+    <div class="container">
+        <div class="section-header center">
+            <h2 class="section-title">Mari Buat Sesuatu Bersama.</h2>
+            <p class="section-subtitle">Punya ide, proyek, atau peluang kerja sama? Mari bicarakan.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info glass-card fade-in">
+                <h3>Informasi Kontak</h3>
+                <div class="info-items">
+                    <a href="mailto:ndanathar@gmail.com" class="info-item">
+                        <div>
+                            <span>Email</span>
+                            <p>ndanathar@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/623194654128" target="_blank" rel="noopener" class="info-item">
+                        <div>
+                            <span>WhatsApp</span>
+                            <p>+62 831-9465-4128</p>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/ndanathar7_?igsi=MWNqbW03ZWJ6YWMy" target="_blank" rel="noopener" class="info-item">
+                        <div>
+                            <span>Instagram</span>
+                            <p>@ndanathar7_</p>
+                        </div>
+                    </a>
+                    <a href="https://share.google/shrki2SyBU2tAxcUi" target="_blank" rel="noopener" class="info-item">                        <div>
+                            <span>GitHub</span>
+                            <p>github.com/ndanathar.id/</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form glass-card fade-in" id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" placeholder="Nama Anda">
+                    <span class="error-msg" id="nameError">Nama wajib diisi</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="email@xample.com">
+                    <span class="error-msg" id="emailError">Masukkan email yang valid</span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Pesan Anda..."></textarea>
+                    <span class="error-msg" id="messageError">Pesan tidak boleh kosong</span>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Kirim Pesan <i data-lucide="send"></i></button>
+                <div class="form-status" id="formStatus"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 NDAN. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+            </div>
+            <a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to Top">
+                <i data-lucide="arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

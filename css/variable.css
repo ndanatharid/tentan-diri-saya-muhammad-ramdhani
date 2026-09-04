@@ -1,0 +1,29 @@
+:root {
+  /* Color Palette System */
+  --bg-primary: #071C16;
+  --bg-secondary: #0D3025;
+  --accent: #10B981;
+  --accent-hover: #059669;
+  --text-light: #F5F7F6;
+  --text-secondary: #DDE5E1;
+  --text-muted: #8FA69D;
+  
+  /* Glassmorphism System */
+  --card-bg: rgba(255, 255, 255, 0.04);
+  --card-border: rgba(255, 255, 255, 0.10);
+  --glass-blur: blur(12px);
+  
+  /* Typography */
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Radii & Layout */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --container-width: 1140px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
